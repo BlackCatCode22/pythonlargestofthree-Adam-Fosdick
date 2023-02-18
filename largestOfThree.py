@@ -13,6 +13,21 @@
 #
 #
 #
+number1 = int(input("enter 3 number between 1 and 100: "))
+number2 = int(input("just 2 left between 1 and 100: "))
+number3 = int(input("last number between 1 and 100: "))
+
+numinput = [number1,number2,number3]
+
+numinput.sort()
+print("The largest element is:",numinput[-1])
+total = 0
+total = sum(numinput)
+print("the sum of all the numbers is:",total)
+
+# https://stackoverflow.com/questions/48246615/number-comparison-to-find-max-min-in-python
+#https://www.geeksforgeeks.org/python-program-to-find-largest-number-in-a-list/
+
 print("\n\n This is the Largest of Three program...")
 # input three integers from the user.
 num1 = input("\nEnter your first integer: ")
